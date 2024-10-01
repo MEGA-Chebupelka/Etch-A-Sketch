@@ -1,0 +1,31 @@
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    gap: 20px;
+}
+.button{
+    color: rgb(0, 0, 0);
+    height: 25px;   
+    width: 150px;
+    box-shadow: 1px 1px;
+    border-radius: 5px;
+    background-color: antiquewhite;
+}
+.drawWindow{
+    display: flex;
+    flex-direction: column;
+    border: solid 1px;
+    width: 500px;
+    height: 500px;
+}
+.rowContainer{
+    display: flex;
+    flex: 1;
+}
+.divMesh{
+    flex: 1;
+    border: solid 1px;
+}
