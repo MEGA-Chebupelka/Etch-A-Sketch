@@ -29,3 +29,8 @@ body{
     flex: 1;
     border: solid 1px;
 }
+
+  
+.divMesh.active {
+    background: blue;
+  }
